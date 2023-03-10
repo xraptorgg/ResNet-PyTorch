@@ -1,7 +1,7 @@
 # ResNet implementation in PyTorch
 
 
-This is an implementation of ResNet architecture proposed by Kaiming He et al. in the paper [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) using PyTorch. The files contain implementation of ResNet-34/50/101/152, to instantiate a specific architecture pass in the network depth as argument to the ResNet class. For example, to create a ResNet-50 object with 200 classes, use `ResNet(num_classes = 20, config = 50)`.
+This is an implementation of ResNet architecture proposed by Kaiming He et al. in the paper [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) using PyTorch. The files contain implementation of ResNet-34/50/101/152, to instantiate a specific architecture pass in the network depth as argument to the ResNet class. For example, to create a ResNet-50 object with 200 classes, use `ResNet(num_classes = 200, config = 50)`.
 
 The Jupyter Notebook contains details about the architecture and implementation steps, the Python script contains the code.
 
